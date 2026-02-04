@@ -6,6 +6,7 @@ from uuid import UUID
 class Genero(str, Enum):
     masculino = "masculino"
     femenino = "femenino"
+    otro = ""
 
 class Role(str, Enum):
     admin = "admin"
